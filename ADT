@@ -1,0 +1,10 @@
+
+sealed abstract trait BA
+case object Blue extends BA
+case object Bronze extends BA
+case object Silver extends BA
+case object Gold extends BA
+object BADemo{
+  def main (args:Array[String]):Unit={
+    val tp:BA=Silver
+    println(s"I have finally reached ${tp} on BA's Executive program!! whoop whoop")
